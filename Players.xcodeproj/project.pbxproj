@@ -13,6 +13,7 @@
 		88655C7B1ACB71F9009A0BAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88655C7A1ACB71F9009A0BAC /* Images.xcassets */; };
 		88655C7E1ACB71F9009A0BAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88655C7C1ACB71F9009A0BAC /* LaunchScreen.xib */; };
 		88655C8A1ACB71F9009A0BAC /* PlayersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88655C891ACB71F9009A0BAC /* PlayersTests.swift */; };
+		88655C981ACB74B8009A0BAC /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88655C971ACB74B8009A0BAC /* PlayersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		88655C831ACB71F9009A0BAC /* PlayersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88655C881ACB71F9009A0BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88655C891ACB71F9009A0BAC /* PlayersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTests.swift; sourceTree = "<group>"; };
+		88655C971ACB74B8009A0BAC /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				88655C731ACB71F9009A0BAC /* AppDelegate.swift */,
 				88655C751ACB71F9009A0BAC /* ViewController.swift */,
 				88655C771ACB71F9009A0BAC /* Main.storyboard */,
+				88655C971ACB74B8009A0BAC /* PlayersViewController.swift */,
 				88655C7A1ACB71F9009A0BAC /* Images.xcassets */,
 				88655C7C1ACB71F9009A0BAC /* LaunchScreen.xib */,
 				88655C711ACB71F9009A0BAC /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				88655C761ACB71F9009A0BAC /* ViewController.swift in Sources */,
 				88655C741ACB71F9009A0BAC /* AppDelegate.swift in Sources */,
+				88655C981ACB74B8009A0BAC /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
